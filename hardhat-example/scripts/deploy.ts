@@ -7,7 +7,7 @@ const { viem } = await network.connect({
 async function main() {
     console.log("Deploying contract...");
 
-    const contract = await viem.deployContract("Vijay");
+    const contract = await viem.deployContract("A");
 
     console.log("Contract deployed at:", contract.address);
 }
