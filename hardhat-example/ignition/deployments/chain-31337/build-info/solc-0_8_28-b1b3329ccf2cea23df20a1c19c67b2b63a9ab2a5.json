@@ -1,6 +1,6 @@
 {
   "_format": "hh3-sol-build-info-1",
-  "id": "solc-0_8_28-fa9fdb790e7cfa079206142e946abfacae0e0342",
+  "id": "solc-0_8_28-b1b3329ccf2cea23df20a1c19c67b2b63a9ab2a5",
   "solcVersion": "0.8.28",
   "solcLongVersion": "0.8.28+commit.7893614a",
   "userSourceNameMap": {
@@ -32,7 +32,7 @@
     },
     "sources": {
       "project/contracts/c.sol": {
-        "content": "// SPDX-License-Identifier: UNLICENSED\npragma solidity ^0.8.28;\n\ncontract C {\n    //1. Property / State variable\n\n    //2. Constructor\n\n    //3. Method\n    \n}"
+        "content": "// SPDX-License-Identifier: UNLICENSED\npragma solidity ^0.8.28;\n\ncontract C {\n    //1. Property / State variable\n    // <type> <visibility modifier> <variable name>;\n    string public fname=\"vijay\"; // i am declaring property / state variable here also initializing it with value \"vijay\"\n    string public lname; // i am declaring property / state variable here\n\n    //2. Constructor\n    constructor () {\n        lname=\"Dabkara\"; // i am initializing property / state variable here in constructor\n    }\n    //3. Method\n\n}"
       }
     }
   }
