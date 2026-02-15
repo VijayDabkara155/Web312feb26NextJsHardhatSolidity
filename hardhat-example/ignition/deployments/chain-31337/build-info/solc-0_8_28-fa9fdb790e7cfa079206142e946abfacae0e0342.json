@@ -1,10 +1,10 @@
 {
   "_format": "hh3-sol-build-info-1",
-  "id": "solc-0_8_28-dd160279dc5e01affacbab73fb6303a5e7fdb615",
+  "id": "solc-0_8_28-fa9fdb790e7cfa079206142e946abfacae0e0342",
   "solcVersion": "0.8.28",
   "solcLongVersion": "0.8.28+commit.7893614a",
   "userSourceNameMap": {
-    "contracts/B.sol": "project/contracts/B.sol"
+    "contracts/c.sol": "project/contracts/c.sol"
   },
   "input": {
     "language": "Solidity",
@@ -31,8 +31,8 @@
       "remappings": []
     },
     "sources": {
-      "project/contracts/B.sol": {
-        "content": "// SPDX-License-Identifier: UNLICENSED\npragma solidity ^0.8.28;\n\ncontract B {\n    //1. Property / State variables\n    // type accessmodifier variable_name\n    string public name; // I'm declaring a property / state variables here\n\n    //2. Constructor\n    constructor(string memory n) { //_n is a formal argument\n        // constructor code\n        name = n; // I'm initializing the state variable here using the constructor argument\n    }\n\n    //3. Methods\n}"
+      "project/contracts/c.sol": {
+        "content": "// SPDX-License-Identifier: UNLICENSED\npragma solidity ^0.8.28;\n\ncontract C {\n    //1. Property / State variable\n\n    //2. Constructor\n\n    //3. Method\n    \n}"
       }
     }
   }
