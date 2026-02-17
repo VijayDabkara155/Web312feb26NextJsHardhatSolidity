@@ -1,0 +1,39 @@
+{
+  "_format": "hh3-sol-build-info-1",
+  "id": "solc-0_8_28-a1a46559b77e1ed3abb9801e51e848dc51f64d2b",
+  "solcVersion": "0.8.28",
+  "solcLongVersion": "0.8.28+commit.7893614a",
+  "userSourceNameMap": {
+    "contracts/D.sol": "project/contracts/D.sol"
+  },
+  "input": {
+    "language": "Solidity",
+    "settings": {
+      "evmVersion": "cancun",
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "outputSelection": {
+        "*": {
+          "": [
+            "ast"
+          ],
+          "*": [
+            "abi",
+            "evm.bytecode",
+            "evm.deployedBytecode",
+            "evm.methodIdentifiers",
+            "metadata"
+          ]
+        }
+      },
+      "remappings": []
+    },
+    "sources": {
+      "project/contracts/D.sol": {
+        "content": "// SPDX-License-Identifier: UNLICENSED\npragma solidity ^0.8.20;\n\ncontract D {\n    // Property / State variable\n    // Type VisiblityModifier Name;\n    string public name; // Property Declaration\n    // Constructor\n    constructor(string memory _name) { // constructor (Type VisiblityModifier _VariableName (if variable start with _ that means the variable is temporary variable and it is used only inside the constructor))\n        // constructor is a special function \n        // that is executed only once when the contract is deployed on blockchain network\n        // constructor are used to initialize the property\n        // name = \"vijay\"; // Property Initialization\n        name = _name; // Property Initialization using constructor parameter\n    }\n\n    // Method\n}   "
+      }
+    }
+  }
+}
